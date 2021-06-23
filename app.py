@@ -10,6 +10,7 @@ import re
 import numpy as np
 import nltk
 import pickle
+from waitress import serve
 from nltk.stem import PorterStemmer
 from sklearn.naive_bayes import MultinomialNB
 from nltk.corpus import stopwords
